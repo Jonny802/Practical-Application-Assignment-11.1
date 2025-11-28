@@ -18,6 +18,8 @@ The objective of this assignment is to identify the vehicle attributes that have
 
 The dataset, `vehicles.csv`, contains 426,000 used car listings with fields such as year, manufacturer, model, odometer, title status, drive, fuel, cylinders, and price. It is a reduced version of a larger Kaggle dataset originally containing about 3 million listings. The raw CSV was not modified directly; all cleaning and processing were done inside this notebook.
 
+Due to GitHub file-size limits, the dataset is provided as a compressed ZIP file: `vehicles.zip`.
+
 **Notebook Structure**
 This notebook, `Practical_Assignment_11.1_Jonathan_O'Dea.ipynb`, includes the following sections:
 
@@ -52,6 +54,15 @@ Using these features, the Ridge Regression model with degree-4 polynomial featur
 
 **How to Run**
 1. The public project repository can be located at: https://github.com/Jonny802/Practical-Application-Assignment-11.1
-2. Download the project file `Practical_Assignment_11.1_Jonathan_O'Dea.ipynb` and `vehicles.csv` file locally
-3. The dataet should be located in /data locally
-4. Run cells top-to-bottom.
+2. Download the project file `Practical_Assignment_11.1_Jonathan_O'Dea.ipynb` and `vehicles.zip` file locally.
+3. Place it inside a local /data folder, so the structure looks like:
+
+│── /data
+
+│     └── vehicles.zip
+
+4. The notebook is configured to load the dataset from the /data directory. (You may extract vehicles.csv manually, but extraction is optional.)
+5. Run cells top-to-bottom.
+
+
+
