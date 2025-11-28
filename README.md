@@ -16,10 +16,10 @@ The objective of this assignment is to identify the vehicle attributes that have
 
 **Dataset**
 
-The dataset, vehicles.csv, contains 426,000 used car listings with fields such as year, manufacturer, model, odometer, title status, drive, fuel, cylinders, and price. It is a reduced version of a larger Kaggle dataset originally containing about 3 million listings. The raw CSV was not modified directly; all cleaning and processing were done inside this notebook.
+The dataset, `vehicles.csv`, contains 426,000 used car listings with fields such as year, manufacturer, model, odometer, title status, drive, fuel, cylinders, and price. It is a reduced version of a larger Kaggle dataset originally containing about 3 million listings. The raw CSV was not modified directly; all cleaning and processing were done inside this notebook.
 
 **Notebook Structure**
-This notebook, Practical_Assignment_11.1_Jonathan_O'Dea.ipynb, includes the following sections:
+This notebook, `Practical_Assignment_11.1_Jonathan_O'Dea.ipynb`, includes the following sections:
 
 1. Business Understanding
 2. Data Understanding
@@ -39,7 +39,7 @@ This notebook, Practical_Assignment_11.1_Jonathan_O'Dea.ipynb, includes the foll
 
 Based on this dataset and the cleaning applied to it, this analysis shows that the price of a used car can be driven by three factors: age, mileage, and manufacturer. Newer cars and cars with lower mileage consistently sell for more, and brands with stronger reputations tend to hold their value better.
 
-Using these features, the Ridge Regression model with degree-4 polynomial features provided the most accurate predictions, estimating prices within roughly ±$5.6K on average (MAE). While the model performs well with the available data, more detailed information (such as model trim level, engine type, and condition) would improve accuracy further.
+Using these features, the Ridge Regression model with degree-4 polynomial features provided the most accurate predictions, estimating prices within roughly ±`$5.6K` on average (MAE). While the model performs well with the available data, more detailed information (such as model trim level, engine type, and condition) would improve accuracy further.
 
 **Actionable Ideas for the Client**
 - Prioritize vehicles that are newer and have lower mileage, as these factors most reliably increase resale value.
@@ -52,6 +52,6 @@ Using these features, the Ridge Regression model with degree-4 polynomial featur
 
 **How to Run**
 1. The public project repository can be located at: https://github.com/Jonny802/Practical-Application-Assignment-11.1
-2. Download the project file Practical_Assignment_11.1_Jonathan_O'Dea.ipynb and vehicles.csv csv locally
+2. Download the project file `Practical_Assignment_11.1_Jonathan_O'Dea.ipynb` and `vehicles.csv` file locally
 3. The dataet should be located in /data locally
 4. Run cells top-to-bottom.
